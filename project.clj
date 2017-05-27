@@ -1,4 +1,4 @@
-(defproject bridg/franzy "0.0.4-SNAPSHOT"
+(defproject bridg/franzy "0.0.4"
             :description "Clojure Kafka client with support for Kafka producer, consumer, rebalancing, administration, and validation."
             :url "https://github.com/bridg/franzy"
             :author "ymilky and others, but see README"
