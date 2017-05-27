@@ -1,6 +1,6 @@
-(defproject mastodonc/franzy "0.0.4-SNAPSHOT"
+(defproject bridg/franzy "0.0.4-SNAPSHOT"
             :description "Clojure Kafka client with support for Kafka producer, consumer, rebalancing, administration, and validation."
-            :url "https://github.com/mastodonc/franzy"
+            :url "https://github.com/bridg/franzy"
             :author "ymilky and others, but see README"
             :license {:name "Eclipse Public License"
                       :url  "http://www.eclipse.org/legal/epl-v10.html"}
@@ -10,7 +10,7 @@
                                         :creds :gpg}}
             :dependencies [[org.clojure/clojure "1.8.0"]
                            [prismatic/schema "1.0.5"]
-                           [org.apache.kafka/kafka-clients "0.10.0.1"]
+                           [org.apache.kafka/kafka-clients "0.10.2.1"]
                            [lbradstreet/franzy-common "0.0.2"]]
             :plugins [[lein-codox "0.9.4"]]
             :codox {:metadata    {:doc/format :markdown}
