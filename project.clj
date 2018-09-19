@@ -1,4 +1,4 @@
-(defproject bridg/franzy "0.0.5-SNAPSHOT"
+(defproject bridg/franzy "0.0.6-SNAPSHOT"
             :description "Clojure Kafka client with support for Kafka producer, consumer, rebalancing, administration, and validation."
             :url "https://github.com/bridg/franzy"
             :author "ymilky and others, but see README"
@@ -10,7 +10,7 @@
                                         :creds :gpg}}
             :dependencies [[org.clojure/clojure "1.8.0"]
                            [prismatic/schema "1.0.5"]
-                           [org.apache.kafka/kafka-clients "0.10.2.1"]
+                           [org.apache.kafka/kafka-clients "1.1.0"]
                            [lbradstreet/franzy-common "0.0.2"]]
             :plugins [[lein-codox "0.9.4"]]
             :codox {:metadata    {:doc/format :markdown}
