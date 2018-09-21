@@ -143,7 +143,8 @@
 (defn map->Cluster
   "Converts a map of cluster metadata to a Cluster Java metadata object."
   [{:keys [nodes partitions unauthorized-topics]}]
-  ((Cluster. (map map->node nodes) (map map->partition-info partitions) (into #{} unauthorized-topics))))
+  ((Cluster. "my_cluster" (map map->node nodes) (map map->partition-info partitions) (into #{} unauthorized-topics)
+             {})))
 
 (defn lazy-consumer-records
   "Creates a lazy wrapper around Java ConsumerRecordsConcatenatedIterables.
